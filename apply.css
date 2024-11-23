@@ -1,0 +1,115 @@
+*{
+  margin:0px;
+  font-family: sans-serif;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/pexels-pixabay-257923.jpg);
+  background-size:contain;
+  background-position: center;
+}
+
+
+nav{
+  height: 11vh;
+}
+
+
+
+h1{
+  color: rgb(234, 231, 231);
+  background: #0e0e0e;
+  text-align: center;
+}
+
+
+.it{
+  background: #0e0e0e;
+  font-weight: lighter;
+  color: rgb(197, 196, 196);
+}
+
+
+
+.container{
+   background:  #0e0e0e;
+   border-radius: 1.5rem;
+   width: 50%;
+   height: 32rem;
+   margin: auto;
+}
+
+
+.form{
+  background:  #0e0e0e;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.error{
+  background: red;
+  width: 30%;
+  height: 12%;
+
+}
+
+input{
+  cursor: pointer;
+  background: whitesmoke;
+  height: 8%;
+  border-radius: 0.3rem;
+  border: none;
+  width: 55%;
+}
+
+
+.input::placeholder{
+  padding-left: 10rem;
+}
+
+
+
+label{
+  background:#0e0e0e;
+  color: white;
+}
+
+.btn{
+  color: whitesmoke;
+  text-decoration: none;
+  background: rgb(146, 112, 112);
+  cursor: pointer;
+  width: 17%;
+  height: 8%;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,515 @@
+.box2{
+    margin-top: -29rem;
+    display: flex;
+    align-items: center;
+    height: 38%;
+    width: 100%;
+    background: #ececec; 
+}
+
+
+.inner-box{
+    width: 90%;
+    margin: auto;
+    border: none;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efefef;
+    width: 30%;
+    border: none;
+    height: 100%;
+}
+
+
+.number-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 8rem;
+    border: solid  #c2c1c1;
+}
+
+.sub-text{
+    color: #3d3d3d;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.body-text{
+    width:  70%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texts{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+
+.phone-img{
+    z-index: 10;
+    height: 14%;
+    transform: translate(0%,-90%);
+    width: 100%;
+}
+
+.box3{
+    height: 40%;
+    width: 100%;
+    background: #ffff;
+}
+
+
+.dev-img-con{
+    height: 43%;
+    width: 25%;
+    padding: '';
+    border-radius: 50%;
+    border: none;
+    transform: translate(45%, 40%);
+   
+   
+}
+
+.dev-img{
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.apply-contain{
+    background: #0e0e0e;
+    border: none;
+    height: 40%;
+    width: 40%;
+    z-index: 5;
+    transform: translate(80%, -30%);
+}
+
+.apply-inner-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+
+.apply-text1,
+.apply-text2{
+    color: rgb(214, 214, 214);
+    text-shadow:0px, 0px, 0px #cb6464;
+}
+
+.apply-btn2{
+    background: #0e0e0e;
+}
+
+
+
+.apply-btn{
+    width:30%;
+    height: 12%;
+    background:  #cb6464;
+    color: '';
+    border: none;
+}
+
+.apply-btn:hover{
+    background:  #ff9898;
+    transition: all 0.6s ;
+}
+
+
+.footer{
+    height: 12%;
+    width: 100%;
+    transform: translate( 5%,);
+}  
+
+.footer2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;
+    
+}
+
+.work2{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.it2{
+    font-weight: lighter;
+}
+
+
+.social-con{
+    margin-top: 1.5rem;
+}
+
+
+.social-img-icon{
+    height: 2rem;
+}
+
+
+@media screen and (max-width: 1200px){
+    .number-container{
+      height: 3.5rem;
+      width: 3.5rem;
+    } 
+    
+    .sub-text{
+        font-size: 1.5rem;
+       
+    }
+
+    .body-text{
+        width: 90%;
+    }
+
+
+    .phone-img{
+        margin-top: 5rem;
+    }
+
+
+
+    .dev-img-con{
+       width: 30%; 
+    }
+
+
+    .apply-contain{
+        height:35%;
+        width: 43%;
+    }
+
+
+    .apply-text1{
+        font-size: 1.5rem;
+    }
+
+
+    .apply-text2{
+        font-size: 0.9rem;
+    }
+
+    .social-img-icon{
+        height: 1.5rem;
+    }
+
+    .apply-btn{
+        width: 35%;   
+    }
+
+    .social-img-icon{
+      height: 1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .body-text{
+        width: 100%;
+    }
+
+    .phone-img{
+        margin-top: 7rem;
+
+    }
+
+
+    .inner-box{
+        margin-top: 15rem;
+    
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+
+    .link{
+        font-size: 1rem;
+    }
+    .links{
+        font-size: 1rem;
+    }
+
+    .text,
+    .text1{
+        font-size: 2.5rem;
+    }
+
+    .phone-img{
+        height: 16%;
+    }
+
+    
+
+   .Data-button{
+     width: 15%;
+   }
+
+
+    .box2{
+     height: 50%;  
+    }
+
+    .box3{
+        height: 30%;
+    }
+
+    .texts{
+        font-size:0.9rem;
+        width: 85%;
+    }
+
+   .inner-box{
+     flex-direction: column;
+     height: 70%;
+   }    
+
+   .container{
+    width: 90%;
+    flex-direction: row;
+    height: 6rem;
+   }
+
+   .number-container{
+    height: 4rem;
+    width: 4.4rem;
+   }
+
+   .sub-text{
+    font-size: 2rem;
+    font-weight: light;
+   }
+
+   .body-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+  
+   }
+    
+
+   .dev-img-con{
+    height:46%;
+    width: 27%;
+    transform: translate(47%, 30%);
+   }
+
+   .apply-contain{
+    transform: translate(80%, -17%);
+    height: 60%;
+   }
+
+
+   .apply-inner-con{
+    height: 100%;
+   }
+
+
+   .footer{
+    height: 7%;
+   }
+}
+
+
+
+@media screen and (max-width:768px){
+
+
+   .Data-button{
+    width: 20%;
+  }
+    .under-line2{
+        margin-top: -4px;
+    }
+
+    .phone-img{
+        height: 22rem;
+    }
+
+    .number-container{
+        height: 3rem;
+        width: 3.2rem;
+    }
+
+    .sub-text{
+        font-size: 1.5rem;
+    }
+
+    .body-text{
+        font-size: 0.6rem;
+    }
+
+
+    .dev-img-con{
+        width: 30%;
+    }
+
+    .apply-text2{
+    font-size: 0.7rem;    
+    }
+
+    .apply-btn{
+    width: 50%;
+   }
+
+   .dev-img-con{
+    width: 30%;
+   }
+
+   .apply-contain{
+    height: 55%;
+   }
+
+}
+
+
+@media screen and (max-width: 650px){
+
+    .link{
+        font-size: 1rem;
+    }
+    .links{
+        font-size: 1rem;
+    }
+
+    .text,
+    .text1{
+        font-size: 2.2rem;
+    }
+
+
+    .phone-img{
+        height: 14.5%;
+    }
+
+    
+
+   .Data-button{
+     width: 20%;
+   }
+
+    .sub-text{
+        font-size: 1.3rem;
+    }
+
+    .body-text{
+        font-size: 0.5rem;
+    }
+
+
+    .dev-img-con{
+        width: 33%;
+    }
+
+    .apply-text2{
+    font-size: 0.7rem;
+    line-height: 1rem;    
+    }
+
+    .apply-btn{
+    width: 50%;
+   }
+
+   .apply-contain{
+    height: 55%;
+   }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .phone-img{
+        transform: translate(0%,-120%);
+        height: 14.5%;
+    }
+
+
+    .inner-box{
+        flex-direction: column;
+        height: 70%;
+       
+      }    
+
+
+    .container{
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    .number-container{
+       font-size:  0.8rem;
+    }
+
+    .sub-text{
+        font-size: '';
+    }
+
+    .texts{
+      text-align: center;
+       font-size:1rem;
+       width: 80%;
+    }
+
+    .body-text{
+     height: 50%;
+     width: 100%;
+    }
+
+    .dev-img-con{
+        width: 50%;
+    }
+
+
+
+    .apply-contain{
+        transform: translate(30%, -1%);
+        width: 65%;
+    }
+
+
+
+   
+
+
+}
+
+
+
+
+
+
